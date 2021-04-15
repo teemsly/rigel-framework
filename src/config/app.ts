@@ -16,3 +16,15 @@ export const apiTimeout = 120000
  * This token name that will store to localStorage, sessionStorage, or Cookies HttpOnly
  */
 export const authTokenName = 'auth_token'
+
+/**
+ * loginUrl
+ * The specific login url path.
+ */
+export const loginUrl = '/login'
+
+/**
+ * forbiddenUrl
+ * The specific forbidden url path for forbidden page. 
+ */
+export const forbiddenUrl = '/forbidden'
