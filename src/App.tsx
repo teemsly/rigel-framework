@@ -16,7 +16,7 @@ function App() {
     <Router>
       <RouteContext.Provider
         value={{
-          authorities: ["ADMIN"],
+          authorities: [],
           loginUrl: loginUrl,
           unAuthorizedUrl: forbiddenUrl,
           isAuthenticated: false,
