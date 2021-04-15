@@ -7,9 +7,9 @@ export const apiServer = 'https://localhost:3030'
 /**
  * API Timeout
  * This timeout time when calling APIs, the time set to milisecond
- * this default to 1200 (2 minutes).
+ * this default to 120000 (2 minutes).
  */
-export const apiTimeout = 1200
+export const apiTimeout = 120000
 
 /** 
  * The authentication token name
