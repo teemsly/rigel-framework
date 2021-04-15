@@ -28,3 +28,15 @@ export const loginUrl = '/login'
  * The specific forbidden url path for forbidden page. 
  */
 export const forbiddenUrl = '/forbidden'
+
+/**
+ * Default Language
+ * This default language callback
+ */
+export const defaultLang = 'en'
+
+/**
+ * i18n Debug Mode
+ * Internationalization debug mode
+ */
+export const i18nDebugMode = true
