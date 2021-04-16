@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { PrivateRouteReact } from "teemsly-authorization-beta";
+import { PrivateRouteReact } from "teemsly-auth";
 
 export interface AppRouterProps {
   routers: any[];

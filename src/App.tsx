@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Page } from "teemsly";
-import { PrivateRouteReactContext as RouteContext } from "teemsly-authorization-beta";
+import { PrivateRouteReactContext as RouteContext } from "teemsly-auth";
 import { DetectNetwork as detectNetwork } from "./utils";
 import { forbiddenUrl, loginUrl } from "./config/app";
 import { AppRouter, routers } from "./routers";
