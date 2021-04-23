@@ -1,0 +1,11 @@
+{
+  "title": "Login",
+  "heading": "Login",
+  "subheading": "Stay update with your goals, works and teams.",
+  "loginButton": "Login",
+  "emailAddress": "Email address",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "signupText": "New to Teemsly?",
+  "signupAction": "Join now"
+}
