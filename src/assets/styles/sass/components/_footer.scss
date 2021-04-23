@@ -1,0 +1,28 @@
+.#{$class-prefix}footer-wrapper {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.#{$class-prefix}footer-item {
+  padding: 4px 6px;
+  color: $text-weak;
+
+  & a {
+    color: $text-weak;
+    &:hover {
+      color: $text-weak-hover;
+    }
+  }
+}
+
+.#{$class-prefix}footer-copyright-label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.#{$class-prefix}footer-menu-options {
+  display: flex;
+}

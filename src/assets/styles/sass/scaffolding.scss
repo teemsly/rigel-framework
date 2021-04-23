@@ -1,0 +1,12 @@
+html,
+body {
+  color: $text;
+}
+
+a,
+a:visited {
+  color: lighten($color: #544cab, $amount: 10);
+  &:hover {
+    color: darken($color: #544cab, $amount: 2);
+  }
+}

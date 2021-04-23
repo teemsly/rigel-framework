@@ -1,0 +1,50 @@
+.#{$class-prefix}login-layout {
+  background-color: #ffffff;
+  width: 100%;
+  @include appLayout();
+}
+.#{$class-prefix}login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.#{$class-prefix}login-card {
+  width: 400px;
+}
+
+.#{$class-prefix}form {
+  .#{$class-prefix}form-group {
+    margin-top: 24px;
+    .#{$class-prefix}error-field {
+      line-height: 24px;
+    }
+  }
+}
+
+.#{$class-prefix}login-logo {
+  margin-bottom: 24px;
+  height: 28px;
+  width: 128px;
+}
+
+.#{$class-prefix}login-forgot-password-link {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  display: inline-block;
+}
+
+.#{$class-prefix}login-button {
+  margin-top: 24px;
+}
+
+.#{$class-prefix}login-signup-action {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 50px;
+}

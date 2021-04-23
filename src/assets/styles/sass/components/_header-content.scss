@@ -1,0 +1,9 @@
+.#{$class-prefix}header-content {
+  & .#{$class-prefix}header-content-heading {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: $text;
+  }
+}
