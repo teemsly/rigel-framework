@@ -7,6 +7,7 @@ import { forbiddenUrl, loginUrl } from "./config/app";
 import { AppRouter, routers } from "./routers";
 
 import "teemsly/dist/styles/teemsly-default.css";
+import "./assets/styles/sass/themes/default/app-default.scss";
 
 function App() {
   /** Detect network connection  */
