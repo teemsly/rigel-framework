@@ -6,15 +6,20 @@ import Logo from "../../assets/images/logo/logo-128.png";
 import { HeaderContent } from "../../components";
 import { AppFooter } from "../../shared";
 import { routerName } from "../../routers";
+import { addClassName } from "../../utils";
 
 function Login() {
   const { t } = useTranslation("login");
 
   return (
-    <div className="ts-login-layout">
-      <div className="ts-login-content">
-        <div className="ts-login-card">
-          <img src={Logo} alt="teemsly" className="ts-login-logo" />
+    <div className={addClassName("login-layout")}>
+      <div className={addClassName("login-content")}>
+        <div className={addClassName("login-card")}>
+          <img
+            src={Logo}
+            alt="teemsly"
+            className={addClassName("login-logo")}
+          />
           <Form
             onSubmit={(e: any) => {
               e.preventDefault();
@@ -65,7 +70,7 @@ function Login() {
               </Card.Body>
             </Card>
           </Form>
-          <div className="ts-login-signup-action">
+          <div className={addClassName("login-signup-action")}>
             {t("signupText")}{" "}
             <Link to={routerName.signup}>
               <b>{t("signupAction")}</b>
