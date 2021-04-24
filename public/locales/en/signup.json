@@ -1,0 +1,15 @@
+{
+  "heading": "Sig Up",
+  "subheading": "Manage your works, goals, and teams to more productive.",
+  "fields": {
+    "email": "Email address",
+    "password": "Password",
+    "companyName": "Company name"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "aggrement": "By signing up, I agree to the Teemsly <0>{{privacy}}</0> and <1>{{terms}}</1>",
+  "signupButton": "Try for free",
+  "alreadyAccountQuestion": "Already have account?",
+  "loginText": "Let's login"
+}

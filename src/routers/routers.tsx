@@ -14,6 +14,10 @@ const routers = [
     component: lazy(() => import("../modules/Login")),
   },
   {
+    path: routerName.signup,
+    component: lazy(() => import("../modules/Signup")),
+  },
+  {
     path: "*",
     component: lazy(() => import("../modules/Error/PageNotFound")),
   },
