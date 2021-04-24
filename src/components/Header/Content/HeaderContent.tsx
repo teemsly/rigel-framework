@@ -1,4 +1,5 @@
 import React from "react";
+import { addClassName } from "../../../utils";
 
 export interface HeaderContentProps {
   heading: string;
@@ -11,10 +12,12 @@ const HeaderContent: React.FC<HeaderContentProps> = (
   const { heading, subheading } = props;
 
   return (
-    <div className="ts-header-content">
-      <h1 className="ts-header-content-heading">{heading}</h1>
+    <div className={addClassName("header-content")}>
+      <h1 className={addClassName("header-content-heading")}>{heading}</h1>
       {subheading && (
-        <div className="ts-header-content-subheading">{subheading}</div>
+        <div className={addClassName("header-content-subheading")}>
+          {subheading}
+        </div>
       )}
     </div>
   );

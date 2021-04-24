@@ -1,4 +1,5 @@
 import React from "react";
+import { addClassName } from "../../utils";
 
 export interface FooterItemProps {
   children?: React.ReactNode;
@@ -6,7 +7,7 @@ export interface FooterItemProps {
 
 const FooterItem = (props: FooterItemProps) => {
   const { children } = props;
-  return <div className="ts-footer-item">{children}</div>;
+  return <div className={addClassName("footer-item")}>{children}</div>;
 };
 
 export default FooterItem;

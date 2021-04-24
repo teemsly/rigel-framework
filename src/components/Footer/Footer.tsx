@@ -1,4 +1,5 @@
 import React from "react";
+import { addClassName } from "../../utils";
 
 export interface FooterProps {
   copyrightCompany?: string;
@@ -10,10 +11,12 @@ const Footer: React.FC<FooterProps> = (props: FooterProps) => {
   const { copyrightCompany, copyrightYear, children } = props;
 
   return (
-    <div className="ts-footer-wrapper">
-      <div className="ts-footer-item">
-        <span className="ts-footer-copyright-label">{copyrightCompany}</span> ©{" "}
-        {copyrightYear}
+    <div className={addClassName("footer-wrapper")}>
+      <div className={addClassName("footer-item")}>
+        <span className={addClassName("footer-copyright-label")}>
+          {copyrightCompany}
+        </span>{" "}
+        © {copyrightYear}
       </div>
       {children}
     </div>
