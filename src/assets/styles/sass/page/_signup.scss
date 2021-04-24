@@ -1,0 +1,40 @@
+.#{$class-prefix}signup-layout {
+  width: 100%;
+  @include appLayout();
+}
+
+.#{$class-prefix}signup-content {
+  @include appContent();
+  padding: 50px 0 50px 0;
+}
+
+.#{$class-prefix}signup-logo {
+  margin-bottom: 24px;
+  height: 28px;
+  width: 128px;
+}
+
+.#{$class-prefix}signup-card {
+  width: 400px;
+}
+
+.#{$class-prefix}signup-aggrement {
+  color: $text-weak;
+  padding: 8px 0;
+  font-size: 12px;
+}
+
+.#{$class-prefix}signup-login-action {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.#{$class-prefix}signup-link-aggrement {
+  border-bottom: 1px dotted $text-weak;
+  color: $text-weak;
+
+  &:hover {
+    color: $text-weak-hover;
+    text-decoration: none;
+  }
+}

@@ -1,3 +1,7 @@
 @import "./variables.scss";
 @import "./mixin.scss";
 @import "./scaffolding.scss";
+
+.#{$class-prefix}page {
+  overflow: auto;
+}
