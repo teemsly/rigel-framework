@@ -1,5 +1,5 @@
 {
-  "heading": "Daftar",
+  "heading": "Coba Teemsly Gratis",
   "subheading": "Atur goal, pekerjaan dan tim dengan mudah.",
   "fields": {
     "email": "Alamat email",
@@ -9,7 +9,7 @@
   "privacyPolicy": "Kebijakan Privasi",
   "termsOfService": "Ketentuan Layanan",
   "aggrement": "Dengan mendaftar, Saya menyetujui dengan <0>{{privacy}}</0> & <1>{{terms}}</1> dari Teemsly",
-  "signupButton": "Try for free",
+  "signupButton": "Coba gratis",
   "alreadyAccountQuestion": "Sudah punya akun?",
   "loginText": "Masuk sekarang"
 
