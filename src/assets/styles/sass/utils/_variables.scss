@@ -1,0 +1,21 @@
+$class-prefix: ts-;
+
+// Global text colors
+$text: #151b26;
+$text-deprecated: #273240;
+$text-weak: #6f7782;
+$text-weak-hover: #151b26;
+$text-disabled: #9ca6af;
+
+// Breakpoint for media query
+$breakpoint-sm: 576px; // Small devices (landscape phones, 576px and up)
+$breakpoint-md: 768px; // Medium devices (tablets, 768px and up)
+$breakpoint-lg: 992px; // Large devices (desktops, 992px and up)
+$breakpoint-xl: 1200px; // X-Large devices (large desktops, 1200px and up)
+
+// Container variabel
+$container-width: 100%;
+$container-width-sm: 540px;
+$container-width-md: 720px;
+$container-width-lg: 960px;
+$container-width-xl: 1140px;

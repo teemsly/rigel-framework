@@ -1,5 +1,6 @@
-@import "../../common.scss";
-@import "../../pages.scss";
+@import "../../utils/unitls";
 
-@import "../../components/header-content";
-@import "../../components/footer";
+@import "../../base/base";
+@import "../../layout/layout";
+@import "../../pages/pages";
+@import "../../components/components";
