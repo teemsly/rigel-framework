@@ -18,6 +18,10 @@ const routers = [
     component: lazy(() => import("../modules/Signup")),
   },
   {
+    path: routerName.forgotPassword,
+    component: lazy(() => import("../modules/ForgotPassword")),
+  },
+  {
     path: "*",
     component: lazy(() => import("../modules/Error/PageNotFound")),
   },
