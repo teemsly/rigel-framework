@@ -1,0 +1,16 @@
+.#{$class-prefix}dropdown-item {
+  font-size: 13px;
+
+  svg {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+  }
+}
+
+.#{$class-prefix}dropdown-item-divider {
+  height: 1px;
+  margin: 6px 0;
+  overflow: hidden;
+  background-color: #e5e5ea;
+}
