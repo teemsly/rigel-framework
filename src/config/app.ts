@@ -33,7 +33,7 @@ export const forbiddenUrl = '/forbidden'
  * Default Language
  * This default language callback
  */
-export const defaultLang = 'en'
+export const defaultLang = 'en-US'
 
 /**
  * i18n Debug Mode
