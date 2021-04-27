@@ -1,1 +1,10 @@
-{}
+{
+  "sidebar": {
+    "home": "Home",
+    "myWorks": "My Works",
+    "projects": "Projects",
+    "chats": "Chats",
+    "goals": "Goals",
+    "portfolios": "Portfolios"
+  }
+}

@@ -9,6 +9,7 @@ import { BsChatDots, BsCheckCircle, BsClipboardData } from "react-icons/bs";
 
 import LogoSidebar from "../../assets/images/logo/logo_light.png";
 import { addClassName } from "../../utils";
+import { useTranslation } from "react-i18next";
 
 const ReactRouterLink = React.forwardRef((props: any, ref: any) => {
   const { href, ...rest } = props;
@@ -37,7 +38,9 @@ const SidebarLogo = () => {
   );
 };
 
-const AppSidebar = () => {
+const AppSidebar: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Sidebar expander collapsible>
       <Sidebar.Header>
@@ -45,22 +48,22 @@ const AppSidebar = () => {
       </Sidebar.Header>
       <SidebarNav>
         <NavLink href="/" active>
-          <RiHomeSmile2Line /> Home
+          <RiHomeSmile2Line /> {t("sidebar.home")}
         </NavLink>
         <NavLink href="/my-works">
-          <BsCheckCircle /> My Works
+          <BsCheckCircle /> {t("sidebar.myWorks")}
         </NavLink>
         <NavLink href="/projects">
-          <AiOutlineProject /> Projects
+          <AiOutlineProject /> {t("sidebar.projects")}
         </NavLink>
         <NavLink href="/goals">
-          <GiConvergenceTarget /> Goals
+          <GiConvergenceTarget /> {t("sidebar.goals")}
         </NavLink>
         <NavLink href="/chats">
-          <BsChatDots /> Chats
+          <BsChatDots /> {t("sidebar.chats")}
         </NavLink>
         <NavLink href="/portfolios">
-          <BsClipboardData /> Portfolios
+          <BsClipboardData /> {t("sidebar.portfolios")}
         </NavLink>
       </SidebarNav>
       <Sidebar.Content></Sidebar.Content>
