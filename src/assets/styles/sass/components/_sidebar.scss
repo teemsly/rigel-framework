@@ -1,0 +1,48 @@
+.#{$class-prefix}sidebar {
+  background-color: $color-primary;
+
+  .#{$class-prefix}sidebar-header-logo,
+  .#{$class-prefix}sidebar-logo {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 21px;
+    display: block;
+    flex-grow: 1;
+    height: 21px;
+  }
+
+  .#{$class-prefix}logo-text {
+    visibility: hidden;
+  }
+
+  .#{$class-prefix}sidebar-nav-item {
+    opacity: 0.8;
+    color: $color-white;
+
+    svg {
+      opacity: 0.6;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      fill: $color-white;
+    }
+
+    &.#{$class-prefix}sidebar-nav-item-active {
+      opacity: 1;
+    }
+
+    &:focus,
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+
+      svg {
+        opacity: 1;
+      }
+    }
+
+    &:visited {
+      color: $color-white;
+    }
+  }
+}
