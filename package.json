@@ -1,11 +1,20 @@
 {
-  "name": "cra-template-teemsly-app",
-  "version": "1.2.0",
+  "name": "cra-template-rigel",
+  "version": "1.2.1",
   "main": "template.json",
   "files": [
     "template",
     "template.json"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com//teemsly/rigel-framework#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com//teemsly/rigel-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com//teemsly/rigel-framework/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
