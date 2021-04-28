@@ -1,8 +1,4 @@
 {
-  "name": "cra-template-teemsly-app",
-  "version": "1.2.0",
-  "main": "template.json",
-  "files": ["template", "template.json"],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -40,26 +36,5 @@
     "clean-files": "rm -rf ./template/public ./template/src",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
     "prepublishOnly": "npm run clean-files && npm run copy-files"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "sass": "^1.32.11"
   }
 }
