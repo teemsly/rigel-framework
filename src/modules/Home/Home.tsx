@@ -10,7 +10,8 @@ const Home = () => {
       <AppTopNavigation title="Home" />
 
       <div style={{ textAlign: "center", padding: "40px 0", width: "100%" }}>
-        <h2>{t("title")}</h2>
+        <h3 style={{ fontWeight: 500, fontSize: "24px" }}>{t("title")}</h3>
+        <div>Check out any upcoming tasks and recent projects below!</div>
       </div>
     </AppLayout>
   );
