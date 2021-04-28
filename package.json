@@ -7,13 +7,13 @@
     "template.json"
   ],
   "license": "MIT",
-  "homepage": "https://github.com//teemsly/rigel-framework#readme",
+  "homepage": "https://github.com/teemsly/rigel-framework#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com//teemsly/rigel-framework.git"
+    "url": "git+https://github.com/teemsly/rigel-framework.git"
   },
   "bugs": {
-    "url": "https://github.com//teemsly/rigel-framework/issues"
+    "url": "https://github.com/teemsly/rigel-framework/issues"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
